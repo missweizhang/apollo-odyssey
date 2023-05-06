@@ -8,6 +8,7 @@ import { humanReadableTimeFromSeconds } from '../utils/helpers';
  * for each track populating the tracks grid homepage.
  */
 const TrackCard = ({ track }) => {
+  console.log(track);
   const { title, thumbnail, author, length, modulesCount } = track;
 
   return (
